@@ -8,7 +8,7 @@ blueprint:
       description: The climate device to use.
       selector:
         entity:
-          domain: climate
+          domain: switch
     temp_sensor:
       name: Temperature Sensor
       description: Temperature Sensor to check.
